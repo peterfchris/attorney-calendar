@@ -4,7 +4,6 @@ import {Switch, Route} from 'react-router-dom'
 // User Page Components
 import Home from './Components/User/Home/HomePage'
 import Questionnaire from './Components/User/Questionnaire/Questionnaire'
-import Rejection from './Components/User/Rejection/Rejection'
 import LeadCaptureForm from './Components/User/LeadCaptureForm/LeadCaptureForm'
 import UserCalendarMonth from './Components/User/UserCalendar/UserCalendarMonth'
 import Confirmation from './Components/User/Confirmation/Confirmation'
@@ -20,7 +19,6 @@ export default (
         {/* User Side */}
         <Route exact path='/' component={Home} />
         <Route path='/questionnaire' component={Questionnaire} />
-        <Route path='/sorry' component={Rejection} />
         <Route path='/details' component={LeadCaptureForm} />
         <Route path='/schedule' component={UserCalendarMonth} />
         <Route path='/confirmation' component={Confirmation} />

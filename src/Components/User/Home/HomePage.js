@@ -4,7 +4,10 @@ export class HomePage extends Component {
     render() {
         return (
             <div>
-                <h1>Home</h1>
+                <form>
+                    <h1>Nice to meet you!</h1>
+                    <button><Link to='/questionnaire'>Schedule Free Consultation</Link></button>
+                </form>
             </div>
         )
     }
